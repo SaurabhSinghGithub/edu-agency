@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+       <!-- swiper css link -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <!-- custom css link-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fa-solid fa-lightbulb"></i> educa</a>
+
+        <nav class="navbar">
+
+            <i class="fa fa-close nav-close"></i>
+
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="courses.html">courses</a>
+            <a href="contact.html">contact</a>
+
+        </nav>
+
+        <div class="icons">
+
+            <div id="account-btn" class="fa fa-user"></div>
+            <div id="menu-btn" class="fa fa-bars"></div>
+
+        </div>
+
+    </header>
+
+
+    <!-- form section -->
+
+    <div class="form">
+
+        <div class="fa fa-close form-close"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">login</span>
+            <span class="btn register-btn">register</span>
+        </div>
+
+
+
+        <form action="" class="form1 active">
+
+            <h1>login now</h1>
+
+            <input type="email" name="" id="" placeholder="enter your email" class="box">
+
+            <input type="password" name="" id="" placeholder="enter your password" class="box">
+
+            <div class="flex">
+
+                <input type="checkbox" name="" id="rememberMe">
+                <label for="rememberMe">remember me</label>
+                <a href="#">forgot password?</a>
+
+
+            </div>
+
+            <input type="submit" value="login now" class="btn">
+
+        </form>
+
+        <form action="" class="form2">
+
+            <h1>register now</h1>
+
+            <input type="email" name="" id="" placeholder="enter your email" class="box">
+
+            <input type="password" name="" id="" placeholder="enter your password" class="box">
+
+            <input type="password" name="" id="" placeholder="confirm your password" class="box">
+
+            <div class="btn">register now</div>
+
+        </form>
+    </div>
+
+
+    <!-- heading links -->
+
+    <section class="page-links">
+
+        <div class="heading">our courses</div>
+
+        <div class="links">
+            <a href="home.html">home</a> / courses
+        </div>
+
+    </section>
+
+
+    <!-- courses section -->
+
+    <!-- <section class="courses2">
+        <h1>our famous courses</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+                        <img src="/images/course-2-1.jpg" alt="">
+
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+                        <img src="/images/course-2-2.jpg" alt="">
+
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-3.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-4.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-5.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-6.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn loadMore" >load more</div>
+
+        
+        <div class="box-container2" id="courseBox">
+
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-1.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-2.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-3.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-4.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-5.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-6.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section> -->
+    <section class="courses2">
+        <h1>our famous courses</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+                        <img src="/images/course-2-1.jpg" alt="">
+
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+                        <img src="/images/course-2-2.jpg" alt="">
+
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-3.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-4.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-5.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-6.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+
+            <div class="box hide">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-1.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-2.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-3.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-4.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-5.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="role">
+                 
+                    <a href="#">doctor</a>
+                </div>
+
+                <div class="box-upper">
+                    <div class="image">
+
+                        <img src="/images/course-2-6.jpg" alt="">
+                    </div>
+                    <h3>choose what's best for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium?</p>
+                    <div class="btn">read more</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="box-lower">
+                    <p><i class="fa fa-book"></i> 12 modules</p>
+                    <p><i class="fa fa-clock"></i> 6 hours</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn loadMore" >load more</div>
+
+      
+
+    </section>
+
+
+    <!-- footer section -->
+
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="about">
+
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    educa
+                </a>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, labore?</p>
+
+                <div class="links">
+
+
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+
+
+                </div>
+            </div>
+
+            <div class="quick-links">
+
+                <h3>quick links</h3>
+                <a href="home.html">home</a>
+                <a href="about.html">about</a>
+                <a href="courses.html">courses</a>
+                <a href="contact.html">contact</a>
+            </div>
+
+            <div class="useful-links">
+                <h3>useful links</h3>
+                <a href="#">help center</a>
+                <a href="#">ask questions</a>
+                <a href="#">send feedback</a>
+                <a href="#">privacy policy</a>
+                <a href="#">terms of use</a>
+            </div>
+
+            <div class="newsletter">
+
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" name="" id="" placeholder="enter your email">
+                <input type="submit" value="subscribe" class="btn">
+
+
+            </div>
+
+        </div>
+
+        <div class="credits"> created by <span> saurabh singh </span> | all rights reserved
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- swiper js -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
